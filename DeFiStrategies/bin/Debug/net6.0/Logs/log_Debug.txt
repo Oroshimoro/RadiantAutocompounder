@@ -1,0 +1,556 @@
+[2022-08-10 09:04:48.1115 1] INFO: Program.Main Application started
+[2022-08-10 13:53:43.8064 1] INFO: Program.Main Application started
+[2022-08-10 13:53:44.0928 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 13:53:44.9271 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Nethereum.JsonRpc.Client.RpcClientUnknownException: Error occurred when trying to send rpc requests(s): eth_call
+ ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   --- End of inner exception stack trace ---
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendInnerRequestAsync[T](RpcRequestMessage reqMsg, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendRequestAsync[T](RpcRequest request, String route)
+   at Nethereum.Contracts.ContractCall.CallAsync(CallInput callInput, BlockParameter block)
+   at Nethereum.Contracts.QueryHandlers.QueryDecoderBaseHandler`2.QueryAsync(String contractAddress, TFunctionMessage functionMessage, BlockParameter block)
+   at DeFi_Strategies.Tron.CompoundRDNT.SuperGaugeContractClient.GetClaimableRewardsAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\SuperGaugeContractClient.cs:line 91
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\AutoCompounder.cs:line 50
+[2022-08-10 13:53:44.9271 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 13:55:01.3450 1] INFO: Program.Main Application started
+[2022-08-10 13:55:01.6103 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 13:55:02.4381 8] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Nethereum.JsonRpc.Client.RpcClientUnknownException: Error occurred when trying to send rpc requests(s): eth_call
+ ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   --- End of inner exception stack trace ---
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendInnerRequestAsync[T](RpcRequestMessage reqMsg, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendRequestAsync[T](RpcRequest request, String route)
+   at Nethereum.Contracts.ContractCall.CallAsync(CallInput callInput, BlockParameter block)
+   at Nethereum.Contracts.QueryHandlers.QueryDecoderBaseHandler`2.QueryAsync(String contractAddress, TFunctionMessage functionMessage, BlockParameter block)
+   at DeFi_Strategies.Tron.CompoundRDNT.SuperGaugeContractClient.GetClaimableRewardsAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\SuperGaugeContractClient.cs:line 91
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\AutoCompounder.cs:line 50
+[2022-08-10 13:55:02.4381 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 14:24:53.6620 1] INFO: Program.Main Application started
+[2022-08-10 14:24:53.9315 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 14:24:54.7217 8] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Nethereum.JsonRpc.Client.RpcClientUnknownException: Error occurred when trying to send rpc requests(s): eth_call
+ ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   --- End of inner exception stack trace ---
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendInnerRequestAsync[T](RpcRequestMessage reqMsg, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendRequestAsync[T](RpcRequest request, String route)
+   at Nethereum.Contracts.ContractCall.CallAsync(CallInput callInput, BlockParameter block)
+   at Nethereum.Contracts.QueryHandlers.QueryDecoderBaseHandler`2.QueryAsync(String contractAddress, TFunctionMessage functionMessage, BlockParameter block)
+   at DeFi_Strategies.Tron.CompoundRDNT.SuperGaugeContractClient.GetClaimableRewardsAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\SuperGaugeContractClient.cs:line 91
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\AutoCompounder.cs:line 50
+[2022-08-10 14:24:54.7217 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 14:25:14.8539 1] INFO: Program.Main Application started
+[2022-08-10 14:25:15.1226 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 14:25:15.7919 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Nethereum.JsonRpc.Client.RpcClientUnknownException: Error occurred when trying to send rpc requests(s): eth_call
+ ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   --- End of inner exception stack trace ---
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendInnerRequestAsync[T](RpcRequestMessage reqMsg, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendRequestAsync[T](RpcRequest request, String route)
+   at Nethereum.Contracts.ContractCall.CallAsync(CallInput callInput, BlockParameter block)
+   at Nethereum.Contracts.QueryHandlers.QueryDecoderBaseHandler`2.QueryAsync(String contractAddress, TFunctionMessage functionMessage, BlockParameter block)
+   at DeFi_Strategies.Tron.CompoundRDNT.SuperGaugeContractClient.GetClaimableRewardsAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\SuperGaugeContractClient.cs:line 91
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\AutoCompounder.cs:line 50
+[2022-08-10 14:25:15.7929 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 14:25:47.8899 1] INFO: Program.Main Application started
+[2022-08-10 14:25:48.1556 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 14:25:48.8382 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Nethereum.JsonRpc.Client.RpcClientUnknownException: Error occurred when trying to send rpc requests(s): eth_call
+ ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   --- End of inner exception stack trace ---
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendInnerRequestAsync[T](RpcRequestMessage reqMsg, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendRequestAsync[T](RpcRequest request, String route)
+   at Nethereum.Contracts.ContractCall.CallAsync(CallInput callInput, BlockParameter block)
+   at Nethereum.Contracts.QueryHandlers.QueryDecoderBaseHandler`2.QueryAsync(String contractAddress, TFunctionMessage functionMessage, BlockParameter block)
+   at DeFi_Strategies.Tron.CompoundRDNT.SuperGaugeContractClient.GetClaimableRewardsAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\SuperGaugeContractClient.cs:line 91
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\AutoCompounder.cs:line 50
+[2022-08-10 14:25:48.8382 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 14:26:10.3191 1] INFO: Program.Main Application started
+[2022-08-10 14:26:10.5867 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder..ctor Autocompounding started.AlchemyApiEndpoint: https://arb-mainnet.g.alchemy.com/v2/yAk-BEc35v6YoiOLgokOF382p05nXc61
+[2022-08-10 14:26:10.5867 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 14:26:11.5607 8] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Nethereum.JsonRpc.Client.RpcClientUnknownException: Error occurred when trying to send rpc requests(s): eth_call
+ ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   --- End of inner exception stack trace ---
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendInnerRequestAsync[T](RpcRequestMessage reqMsg, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendRequestAsync[T](RpcRequest request, String route)
+   at Nethereum.Contracts.ContractCall.CallAsync(CallInput callInput, BlockParameter block)
+   at Nethereum.Contracts.QueryHandlers.QueryDecoderBaseHandler`2.QueryAsync(String contractAddress, TFunctionMessage functionMessage, BlockParameter block)
+   at DeFi_Strategies.Tron.CompoundRDNT.SuperGaugeContractClient.GetClaimableRewardsAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\SuperGaugeContractClient.cs:line 91
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\AutoCompounder.cs:line 51
+[2022-08-10 14:26:11.5607 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 14:28:34.1066 1] INFO: Program.Main Application started
+[2022-08-10 14:28:34.3712 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 14:28:35.0363 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Nethereum.JsonRpc.Client.RpcClientUnknownException: Error occurred when trying to send rpc requests(s): eth_call
+ ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   --- End of inner exception stack trace ---
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendInnerRequestAsync[T](RpcRequestMessage reqMsg, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendRequestAsync[T](RpcRequest request, String route)
+   at Nethereum.Contracts.ContractCall.CallAsync(CallInput callInput, BlockParameter block)
+   at Nethereum.Contracts.QueryHandlers.QueryDecoderBaseHandler`2.QueryAsync(String contractAddress, TFunctionMessage functionMessage, BlockParameter block)
+   at DeFi_Strategies.Tron.CompoundRDNT.SuperGaugeContractClient.GetClaimableRewardsAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\SuperGaugeContractClient.cs:line 91
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\AutoCompounder.cs:line 51
+[2022-08-10 14:28:35.0363 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 14:31:32.0893 1] INFO: Program.Main Application started
+[2022-08-10 14:31:32.3854 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 14:31:33.0751 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Nethereum.JsonRpc.Client.RpcClientUnknownException: Error occurred when trying to send rpc requests(s): eth_call
+ ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   --- End of inner exception stack trace ---
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendInnerRequestAsync[T](RpcRequestMessage reqMsg, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendRequestAsync[T](RpcRequest request, String route)
+   at Nethereum.Contracts.ContractCall.CallAsync(CallInput callInput, BlockParameter block)
+   at Nethereum.Contracts.QueryHandlers.QueryDecoderBaseHandler`2.QueryAsync(String contractAddress, TFunctionMessage functionMessage, BlockParameter block)
+   at DeFi_Strategies.Tron.CompoundRDNT.SuperGaugeContractClient.GetClaimableRewardsAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\SuperGaugeContractClient.cs:line 91
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\AutoCompounder.cs:line 51
+[2022-08-10 14:31:33.0751 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 14:33:19.7998 1] INFO: Program.Main Application started
+[2022-08-10 14:33:20.0670 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 14:33:20.6821 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Nethereum.JsonRpc.Client.RpcClientUnknownException: Error occurred when trying to send rpc requests(s): eth_call
+ ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   --- End of inner exception stack trace ---
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendInnerRequestAsync[T](RpcRequestMessage reqMsg, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendRequestAsync[T](RpcRequest request, String route)
+   at Nethereum.Contracts.ContractCall.CallAsync(CallInput callInput, BlockParameter block)
+   at Nethereum.Contracts.QueryHandlers.QueryDecoderBaseHandler`2.QueryAsync(String contractAddress, TFunctionMessage functionMessage, BlockParameter block)
+   at DeFi_Strategies.Tron.CompoundRDNT.SuperGaugeContractClient.GetClaimableRewardsAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\SuperGaugeContractClient.cs:line 91
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\AutoCompounder.cs:line 53
+[2022-08-10 14:33:20.6821 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 14:36:34.8426 1] INFO: Program.Main Application started
+[2022-08-10 14:36:35.1051 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 14:36:35.8100 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Nethereum.JsonRpc.Client.RpcClientUnknownException: Error occurred when trying to send rpc requests(s): eth_call
+ ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   --- End of inner exception stack trace ---
+   at Nethereum.JsonRpc.Client.RpcClient.SendAsync(RpcRequestMessage request, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendInnerRequestAsync[T](RpcRequestMessage reqMsg, String route)
+   at Nethereum.JsonRpc.Client.ClientBase.SendRequestAsync[T](RpcRequest request, String route)
+   at Nethereum.Contracts.ContractCall.CallAsync(CallInput callInput, BlockParameter block)
+   at Nethereum.Contracts.QueryHandlers.QueryDecoderBaseHandler`2.QueryAsync(String contractAddress, TFunctionMessage functionMessage, BlockParameter block)
+   at DeFi_Strategies.Tron.CompoundRDNT.SuperGaugeContractClient.GetClaimableRewardsAsync(String address) in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\SuperGaugeContractClient.cs:line 91
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\AutoCompounder.cs:line 53
+[2022-08-10 14:36:35.8100 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 15:41:34.2216 1] INFO: Program.Main Application started
+[2022-08-10 15:41:34.4950 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 15:41:35.2120 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claimable RDNT: 3,200000000000012E-17
+[2022-08-10 15:41:35.2154 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claiming 3,200000000000012E-17 RDNT rewards and waiting 30 sec for state update...
+[2022-08-10 15:41:36.8045 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.SuperGaugeContractClient.ClaimRewardsAsync Error occurred when trying to send rpc requests(s): eth_feeHistory
+[2022-08-10 15:41:36.8045 7] WARN: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claim tx id is null! Error
+[2022-08-10 15:46:48.6075 1] INFO: Program.Main Application started
+[2022-08-10 15:46:48.8739 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 15:46:49.5470 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claimable RDNT: 3,200000000000012E-17
+[2022-08-10 15:46:49.5470 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claiming 3,200000000000012E-17 RDNT rewards and waiting 30 sec for state update...
+[2022-08-10 15:46:51.7295 8] ERROR: DeFi_Strategies.Tron.CompoundRDNT.SuperGaugeContractClient.ClaimRewardsAsync gas price too low: eth_sendRawTransaction
+[2022-08-10 15:46:51.7295 8] WARN: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claim tx id is null! Error
+[2022-08-10 15:49:09.0422 1] INFO: Program.Main Application started
+[2022-08-10 15:49:09.3083 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 15:49:10.3300 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claimable RDNT: 3,200000000000012E-17
+[2022-08-10 15:49:10.3300 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claiming 3,200000000000012E-17 RDNT rewards and waiting 30 sec for state update...
+[2022-08-10 15:49:10.9103 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.SuperGaugeContractClient.ClaimRewardsAsync Autocompounding started. Your gas: 1271756
+[2022-08-10 15:49:12.1357 8] ERROR: DeFi_Strategies.Tron.CompoundRDNT.SuperGaugeContractClient.ClaimRewardsAsync gas price too low: eth_sendRawTransaction
+[2022-08-10 15:49:12.1357 8] WARN: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claim tx id is null! Error
+[2022-08-10 16:20:30.8470 1] INFO: Program.Main Application started
+[2022-08-10 16:20:31.1159 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 16:20:31.9344 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claimable RDNT: 3,200000000000012E-17
+[2022-08-10 16:20:31.9344 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claiming 3,200000000000012E-17 RDNT rewards and waiting 30 sec for state update...
+[2022-08-10 16:20:33.0623 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.SuperGaugeContractClient.ClaimRewardsAsync Error occurred when trying to send rpc requests(s): eth_feeHistory
+[2022-08-10 16:20:33.0623 7] WARN: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claim tx id is null! Error
+[2022-08-10 16:21:03.5340 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: M. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\AutoCompounder.cs:line 117
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\AutoCompounder.cs:line 73
+[2022-08-10 16:21:03.5340 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 16:26:06.7343 1] INFO: Program.Main Application started
+[2022-08-10 16:26:06.9998 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 16:26:08.0537 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claimable RDNT: 3,200000000000012E-17
+[2022-08-10 16:26:08.0537 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claiming 3,200000000000012E-17 RDNT rewards and waiting 30 sec for state update...
+[2022-08-10 16:26:09.0387 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.SuperGaugeContractClient.ClaimRewardsAsync Error occurred when trying to send rpc requests(s): eth_feeHistory
+[2022-08-10 16:26:09.0387 7] WARN: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claim tx id is null! Error
+[2022-08-10 16:32:17.3889 1] INFO: Program.Main Application started
+[2022-08-10 16:32:17.6575 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 16:32:18.4449 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claimable RDNT: 3,200000000000012E-17
+[2022-08-10 16:32:18.4449 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claiming 3,200000000000012E-17 RDNT rewards and waiting 30 sec for state update...
+[2022-08-10 16:32:20.9335 14] DEBUG: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claim txid: 0x14d48da2f364437f57f373daee34d5901a91a0a6269e7c9cbf0ecf0e8ed48099
+[2022-08-10 16:32:51.4305 14] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: M. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\AutoCompounder.cs:line 117
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Tron\CompoundUSDD\AutoCompounder.cs:line 73
+[2022-08-10 16:32:51.4305 14] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 17:53:18.2862 1] INFO: Program.Main Application started
+[2022-08-10 17:53:18.5490 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 17:53:19.8164 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claimable RDNT: 3,200000000000012E-17
+[2022-08-10 17:53:19.8164 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claiming 3,200000000000012E-17 RDNT rewards and waiting 30 sec for state update...
+[2022-08-10 17:53:22.2856 7] DEBUG: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claim txid: 0xc6d37992370528c3d4059b752d19080a125359f8832f23a3c38acb919b4f3bd9
+[2022-08-10 17:53:53.2418 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Newtonsoft.Json.JsonSerializationException: Error converting value 525074008810027656379 to type 'System.Int64'. Path 'data[3].balance', line 1, position 1391.
+ ---> System.InvalidOperationException: Can not convert from BigInteger to System.Int64.
+ ---> System.OverflowException: Value was either too large or too small for an Int64.
+   at System.Numerics.BigInteger.op_Explicit(BigInteger value)
+   at Newtonsoft.Json.Utilities.ConvertUtils.FromBigInteger(BigInteger i, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Utilities.ConvertUtils.FromBigInteger(BigInteger i, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 117
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 73
+[2022-08-10 17:53:53.2418 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 18:01:03.4139 1] INFO: Program.Main Application started
+[2022-08-10 18:02:44.3167 1] INFO: Program.Main Application started
+[2022-08-10 18:02:44.5784 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:02:45.6426 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Newtonsoft.Json.JsonSerializationException: Error converting value 525074008810027656379 to type 'System.Int64'. Path 'data[1].balance', line 1, position 486.
+ ---> System.InvalidOperationException: Can not convert from BigInteger to System.Int64.
+ ---> System.OverflowException: Value was either too large or too small for an Int64.
+   at System.Numerics.BigInteger.op_Explicit(BigInteger value)
+   at Newtonsoft.Json.Utilities.ConvertUtils.FromBigInteger(BigInteger i, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Utilities.ConvertUtils.FromBigInteger(BigInteger i, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 123
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 56
+[2022-08-10 18:02:45.6426 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 18:05:13.4228 1] INFO: Program.Main Application started
+[2022-08-10 18:05:13.6868 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:05:14.7840 8] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 129
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 56
+[2022-08-10 18:05:14.7840 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 18:08:11.4365 1] INFO: Program.Main Application started
+[2022-08-10 18:08:11.6993 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:08:12.9107 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 129
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 56
+[2022-08-10 18:08:12.9107 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 18:08:51.0481 1] INFO: Program.Main Application started
+[2022-08-10 18:08:51.3107 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:08:52.2999 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 435636111111111111
+[2022-08-10 18:08:52.3750 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 129
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 56
+[2022-08-10 18:08:52.3750 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 18:13:17.9120 1] INFO: Program.Main Application started
+[2022-08-10 18:13:18.1756 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:13:19.6465 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 128
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 56
+[2022-08-10 18:13:19.6465 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 18:13:39.0581 1] INFO: Program.Main Application started
+[2022-08-10 18:13:39.3218 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:13:40.2805 8] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 128
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 56
+[2022-08-10 18:13:40.2805 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 18:13:58.5052 1] INFO: Program.Main Application started
+[2022-08-10 18:13:58.7665 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:13:59.9574 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 128
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 56
+[2022-08-10 18:13:59.9574 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 18:14:26.3766 1] INFO: Program.Main Application started
+[2022-08-10 18:14:26.6357 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:14:27.6310 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 2552220409702315209
+[2022-08-10 18:14:27.7072 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 129
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 56
+[2022-08-10 18:14:27.7072 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 18:15:38.3151 1] INFO: Program.Main Application started
+[2022-08-10 18:15:38.5798 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:15:39.8526 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 126
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 56
+[2022-08-10 18:15:39.8526 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 18:16:57.9272 1] INFO: Program.Main Application started
+[2022-08-10 18:16:58.1902 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:16:59.3641 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync arb
+[2022-08-10 18:16:59.4357 8] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 129
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 56
+[2022-08-10 18:16:59.4357 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 18:18:43.0337 1] INFO: Program.Main Application started
+[2022-08-10 18:18:43.2911 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:18:44.3810 8] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Newtonsoft.Json.JsonSerializationException: Error converting value "ETH" to type 'DeFi_Strategies.Tron.CompoundRDNT.name[]'. Path 'data[0].name', line 1, position 355.
+ ---> System.ArgumentException: Could not cast or convert from System.String to DeFi_Strategies.Tron.CompoundRDNT.name[].
+   at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 123
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 56
+[2022-08-10 18:18:44.3810 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 18:19:52.8273 1] INFO: Program.Main Application started
+[2022-08-10 18:19:53.0868 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:19:54.7273 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Newtonsoft.Json.JsonSerializationException: Error converting value "ETH" to type 'DeFi_Strategies.Tron.CompoundRDNT.name[]'. Path 'data[0].name', line 1, position 356.
+ ---> System.ArgumentException: Could not cast or convert from System.String to DeFi_Strategies.Tron.CompoundRDNT.name[].
+   at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 123
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 56
+[2022-08-10 18:19:54.7273 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 18:21:06.2618 1] INFO: Program.Main Application started
+[2022-08-10 18:21:06.5227 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:21:07.5998 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync  chain arb
+[2022-08-10 18:21:07.6746 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 129
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 56
+[2022-08-10 18:21:07.6746 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 18:21:35.5755 1] INFO: Program.Main Application started
+[2022-08-10 18:21:35.8373 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:21:37.0458 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync  chain arb  2552220409702315209
+[2022-08-10 18:21:37.1220 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 129
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 56
+[2022-08-10 18:21:37.1220 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 18:22:33.8893 1] INFO: Program.Main Application started
+[2022-08-10 18:22:34.1489 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:22:35.4304 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 126
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 56
+[2022-08-10 18:22:35.4304 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 18:23:08.4899 1] INFO: Program.Main Application started
+[2022-08-10 18:23:08.7488 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:23:09.8162 7] ERROR: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Newtonsoft.Json.JsonSerializationException: Error converting value "ETH" to type 'DeFi_Strategies.Tron.CompoundRDNT.Erc20[]'. Path 'data[0].name', line 1, position 356.
+ ---> System.ArgumentException: Could not cast or convert from System.String to DeFi_Strategies.Tron.CompoundRDNT.Erc20[].
+   at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 123
+   at DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync() in D:\projects\c#\radiantAutocompounder\DeFiStrategies\Arbi\CompoundUSDD\AutoCompounder.cs:line 56
+[2022-08-10 18:23:09.8162 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Waiting 60 minutes...
+[2022-08-10 18:25:53.8719 1] INFO: Program.Main Application started
+[2022-08-10 18:25:54.1364 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:25:55.1844 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync  chain arb  2552220409702315209ETH
+[2022-08-10 18:25:55.1844 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 2552220409702315209
+[2022-08-10 18:25:55.1844 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AccountBalance.Log Balance_RDNT: 0  Balance_ETH: 2,552220409702315209
+[2022-08-10 18:25:55.7938 14] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claimable RDNT: 3,200000000000012E-17
+[2022-08-10 18:25:55.7938 14] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claiming 3,200000000000012E-17 RDNT rewards and waiting 30 sec for state update...
+[2022-08-10 18:25:59.4694 8] DEBUG: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claim txid: 0xcc875e0ef95ed683ce48f2ab82a72533e83b25294c372e9e3ac351fa435fd269
+[2022-08-10 18:33:53.5036 1] INFO: Program.Main Application started
+[2022-08-10 18:33:53.7680 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:33:55.3253 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 2552007638832494265
+[2022-08-10 18:33:55.3253 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 3358338635869361742
+[2022-08-10 18:33:55.3253 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 539088088840710914095
+[2022-08-10 18:33:55.3253 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 10033686793203892373036
+[2022-08-10 18:33:55.3253 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 2463
+[2022-08-10 18:33:55.3253 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 42177466189
+[2022-08-10 18:33:55.3253 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 4318
+[2022-08-10 18:33:55.3253 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 47361595
+[2022-08-10 18:33:55.3253 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AccountBalance.Log Balance_RDNT: 0  Balance_ETH: 2,552007638832494265
+[2022-08-10 18:33:55.9187 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claimable RDNT: 3,200000000000012E-17
+[2022-08-10 18:33:55.9187 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claiming 3,200000000000012E-17 RDNT rewards and waiting 30 sec for state update...
+[2022-08-10 18:33:59.6532 8] DEBUG: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claim txid: 0xbda3f0bfc777739861ee7437137a0ebe40be01be3080b2f09a81a23da7d08e83
+[2022-08-10 18:34:29.5870 1] INFO: Program.Main Application started
+[2022-08-10 18:34:29.8453 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:34:31.1459 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 2551795618830443115
+[2022-08-10 18:34:31.1459 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 3358338635869361742
+[2022-08-10 18:34:31.1459 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 42177466189
+[2022-08-10 18:34:31.1459 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 2463
+[2022-08-10 18:34:31.1459 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 542978477542328799268
+[2022-08-10 18:34:31.1459 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 10033686793203892373036
+[2022-08-10 18:34:31.1459 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 47361595
+[2022-08-10 18:34:31.1459 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 4318
+[2022-08-10 18:34:31.1459 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AccountBalance.Log Balance_RDNT: 0  Balance_ETH: 2,551795618830443115
+[2022-08-10 18:34:31.6599 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claimable RDNT: 3,200000000000012E-17
+[2022-08-10 18:34:31.6599 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claiming 3,200000000000012E-17 RDNT rewards and waiting 30 sec for state update...
+[2022-08-10 18:34:33.6035 7] DEBUG: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claim txid: 0xba703e70f10032ba7281a65f9d4bfab4f9928518363649ff4ea1901b92e50aa4
+[2022-08-10 18:34:49.1652 1] INFO: Program.Main Application started
+[2022-08-10 18:34:49.4255 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:34:50.7592 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync ETH
+[2022-08-10 18:34:50.7592 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 2551600475824780071
+[2022-08-10 18:34:50.7625 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync Radiant
+[2022-08-10 18:34:50.7625 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 542978477542328799268
+[2022-08-10 18:34:50.7625 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync Vesta
+[2022-08-10 18:34:50.7625 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 42177466189
+[2022-08-10 18:34:50.7625 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync Tether USD
+[2022-08-10 18:34:50.7625 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 4318
+[2022-08-10 18:34:50.7625 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync Frax
+[2022-08-10 18:34:50.7625 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 10033686793203892373036
+[2022-08-10 18:34:50.7625 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync USD Coin (Arb1)
+[2022-08-10 18:34:50.7625 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 47361595
+[2022-08-10 18:34:50.7625 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync Frax Share
+[2022-08-10 18:34:50.7625 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 3358338635869361742
+[2022-08-10 18:34:50.7625 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync renBTC
+[2022-08-10 18:34:50.7625 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.GetBalancesInfoAsync 2463
+[2022-08-10 18:34:50.7625 7] INFO: DeFi_Strategies.Tron.CompoundRDNT.AccountBalance.Log Balance_RDNT: 0  Balance_ETH: 2,551600475824780071
+[2022-08-10 18:34:51.3006 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claimable RDNT: 3,200000000000012E-17
+[2022-08-10 18:34:51.3006 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claiming 3,200000000000012E-17 RDNT rewards and waiting 30 sec for state update...
+[2022-08-10 18:34:53.9283 8] DEBUG: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claim txid: 0xa79883e1c5384af9cc82bdc6948b88939d4b923a4599eb3f1dfceb3fcf0ca95f
+[2022-08-10 18:35:12.5887 1] INFO: Program.Main Application started
+[2022-08-10 18:35:12.8521 1] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Autocompounding started. Your address: 0x5dCa7bad26550B04A2D6911BA64Bb7E7bDd67787
+[2022-08-10 18:35:14.0774 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AccountBalance.Log Balance_RDNT: 543,318400096489977447  Balance_ETH: 2,551387641091794549
+[2022-08-10 18:35:14.5687 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claimable RDNT: 3,200000000000012E-17
+[2022-08-10 18:35:14.5687 8] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claiming 3,200000000000012E-17 RDNT rewards and waiting 30 sec for state update...
+[2022-08-10 18:35:16.4972 8] DEBUG: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Claim txid: 0xcd88e995b29eaa47cecf2c3dc64bc4f744a3f18922fbbbdbcf62aca7a25d3506
+[2022-08-10 18:35:47.7327 16] INFO: DeFi_Strategies.Tron.CompoundRDNT.AccountBalance.Log Balance_RDNT: 543,318400096489977447  Balance_ETH: 2,551192498086131505
+[2022-08-10 18:35:48.4682 16] INFO: DeFi_Strategies.Tron.CompoundRDNT.AccountBalance.Log Balance_RDNT: 543,318400096489977447  Balance_ETH: 2,551192498086131505
+[2022-08-10 18:35:48.4682 16] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder.AutocompoundAsync Staking 543,318400096489977447 tokens.
+[2022-08-10 18:35:50.3478 9] DEBUG: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder+<AutocompoundAsync>d__9.MoveNext Stake LP txid: 0x8e26c3678ec6b84da90a5e5b23d81fa4e59cecd217088a59d361029ed5446489
+[2022-08-10 18:35:50.3478 9] INFO: DeFi_Strategies.Tron.CompoundRDNT.AutoCompounder+<AutocompoundAsync>d__9.MoveNext Waiting 60 minutes...
+[2022-08-10 18:38:57.0625 1] INFO: Program.Main Application started

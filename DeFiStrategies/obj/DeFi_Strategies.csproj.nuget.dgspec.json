@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\projects\\c#\\radiantAutocompounder\\DeFiStrategies\\DeFi_Strategies.csproj": {}
+  },
+  "projects": {
+    "D:\\projects\\c#\\radiantAutocompounder\\DeFiStrategies\\DeFi_Strategies.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\c#\\radiantAutocompounder\\DeFiStrategies\\DeFi_Strategies.csproj",
+        "projectName": "DeFi_Strategies",
+        "projectPath": "D:\\projects\\c#\\radiantAutocompounder\\DeFiStrategies\\DeFi_Strategies.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\c#\\radiantAutocompounder\\DeFiStrategies\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GraphQL.Client": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "GraphQL.Client.Serializer.Newtonsoft": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "LiteDB": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.15, )"
+            },
+            "Nethereum.ABI": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Nethereum.Accounts": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Nethereum.HdWallet": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Nethereum.Hex": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Nethereum.Util": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Nethereum.Web3": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[107.3.0, )"
+            },
+            "ServiceStack.Text": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
