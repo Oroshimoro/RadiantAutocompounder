@@ -1,3 +1,6 @@
+Forked from - https://github.com/noescape00/Tron_USDD_AutoCompounder 
+
+
 # USDD autocompounder
 
 This bot does the following: 
