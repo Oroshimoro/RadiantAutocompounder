@@ -35,9 +35,9 @@ Build & setup video here: https://www.youtube.com/watch?v=4C5iuqsIbtg
 
 p.s.
 
-On average it costs 0.5$ in eth fees to pay for 4 txes to autocompound. 
+On average it costs 5$ in eth fees to pay for 4 txes to autocompound. 
 
-So probably don't set autocompounding threshold at less than $0.5. 
+So probably don't set autocompounding threshold at less than $5. 
 
 I'd suggest using smth like $10-15 for a threshold. 
 
