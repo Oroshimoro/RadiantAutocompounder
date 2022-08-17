@@ -46,3 +46,5 @@ I'd suggest using smth like $10-15 for a threshold.
 p.s.s
 
 Contact: @Xudox0 (telegram) - usdd autocompouder author
+
+Me - @vendue_tele
