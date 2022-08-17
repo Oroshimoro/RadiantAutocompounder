@@ -1,4 +1,4 @@
-﻿using System.Numerics;
+using System.Numerics;
 using DeFi_Strategies.Helpers;
 using Nethereum.HdWallet;
 using Nethereum.Web3.Accounts;
@@ -7,7 +7,6 @@ using Newtonsoft.Json;
 using NLog;
 using RestSharp;
 using Nethereum;
-//using System.Net;
 
 namespace DeFi_Strategies.Tron.CompoundRDNT
 {
@@ -28,7 +27,6 @@ namespace DeFi_Strategies.Tron.CompoundRDNT
 
         public AutoCompounder(CompoundingConfig config)
         {
-            //System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
             this.accountMnemonic = config.AccountMnemonic;
             this.claimThresholdRDNT = config.ClaimThresholdRDNT;
             this.AlchemyApiEndpoint =  "https://arb-mainnet.g.alchemy.com/v2/" + config.AlchemyAPIKey;
@@ -44,8 +42,6 @@ namespace DeFi_Strategies.Tron.CompoundRDNT
         public async Task AutocompoundAsync()
         {
       
-
-
             this.logger.Info("Autocompounding started. Your address: " + accountAddress);
             SuperGaugeContractClient gauge = new SuperGaugeContractClient(this.web3, GaugeAddress, accountAddress, this.mainAccount.PrivateKey);
 
@@ -53,9 +49,6 @@ namespace DeFi_Strategies.Tron.CompoundRDNT
             {
                 try
                 {
-                    AccountBalance balanceInfo1 = await this.GetBalancesInfoAsync();
-                    balanceInfo1.Log(this.logger);
-
                     double claimableRDNT = await gauge.GetClaimableRewardsAsync(accountAddress);
 
                     this.logger.Info("Claimable RDNT: {0}", claimableRDNT);
@@ -79,14 +72,13 @@ namespace DeFi_Strategies.Tron.CompoundRDNT
                     AccountBalance balanceInfo = await this.GetBalancesInfoAsync();
                     balanceInfo.Log(this.logger);
 
-                    if ((double)balanceInfo.Balance_RDNT < claimThresholdRDNT)
+                    if ((double)balanceInfo.UsdBalance < claimThresholdRDNT)
                     {
                         this.logger.Info(string.Format("RDNT balance is less than threshold of {0}. Waiting 60 minutes for next iteration...", claimThresholdRDNT));
                         await Task.Delay(TimeSpan.FromMinutes(60));
                         continue;
                     }
 
-              
 
                     balanceInfo = await this.GetBalancesInfoAsync();
                     balanceInfo.Log(this.logger);
@@ -121,13 +113,11 @@ namespace DeFi_Strategies.Tron.CompoundRDNT
             RestResponse response = await client.ExecuteAsync<AccountInfoRoot>(request);
 
             AccountInfoRoot rootObj = JsonConvert.DeserializeObject<AccountInfoRoot>(response.Content);
-            //0x0c4681e6c0235179ec3d4f4fc4df3d14fdd96017
-            //var data = rootObj.data.First();
-
-           
-
+          
             decimal ethBalance = 0;
             decimal RDNTBalance = 0;
+            decimal usdBalance = 0;
+            decimal price = 0;
 
             foreach (var data in rootObj.data)
             {
@@ -140,6 +130,8 @@ namespace DeFi_Strategies.Tron.CompoundRDNT
                 if (data.name == "Radiant")
                 {
                     RDNTBalance = data.balance == null ? 0 : data.balance / 1000000000000000000;
+                    price = data.price == null ? 0 : data.price;
+                    usdBalance = RDNTBalance * price;
                 }
             }
 
@@ -147,18 +139,19 @@ namespace DeFi_Strategies.Tron.CompoundRDNT
             return new AccountBalance()
             {
                 Balance_ETH = ethBalance,
-                Balance_RDNT = RDNTBalance
+                Balance_RDNT = RDNTBalance,
+                UsdBalance = usdBalance
             };
         }
     }
 
     internal class AccountBalance
     {
-        public decimal Balance_RDNT, Balance_ETH;
+        public decimal Balance_RDNT, Balance_ETH, UsdBalance;
 
         public void Log(Logger logger)
         {
-            logger.Info("Balance_RDNT: {0}  Balance_ETH: {1}", Balance_RDNT, Balance_ETH);
+            logger.Info("Balance_RDNT: {0}  Balance_ETH: {1} USD_BALANCE_RDNT: {2}", Balance_RDNT, Balance_ETH, UsdBalance);
         }
     }
 }
